@@ -1,4 +1,4 @@
-FROM node:lts-alpine
+FROM node:17.9.1-alpine
 
 RUN yarn global add http-server
 
