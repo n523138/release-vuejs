@@ -1,4 +1,4 @@
-FROM node:17.9.1-alpine
+FROM node:16.20.0-alpine3.17
 
 RUN yarn global add http-server
 
